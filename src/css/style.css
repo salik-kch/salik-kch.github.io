@@ -1,0 +1,452 @@
+body {
+    font-family: Arial, sans-serif;
+    width: 1920px;
+}
+
+nav {
+    width: 100%;
+    height: 60px;
+    background: #344051;
+}
+
+.logo {
+    color: #fff;
+    font-size: 28px;
+    line-height: 60px;
+    padding-left: 388px;
+    float: left;
+}
+
+.menu {
+    float: left;
+    padding-left: 432px;
+}
+
+.menu li {
+    float: left;
+    line-height: 60px;
+    color: #fff;
+    margin-right: 40px;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.main {
+    width: 100%;
+    height: calc(100% - 60px);
+    background: url(../img/ten.png) bottom repeat-x, url(../img/boy.png) 85% 100%/auto 80% no-repeat, url(../img/bg.jpg) center/cover no-repeat;
+}
+
+.title__container {
+    float: left;
+    margin: 432px 0px 0px 404px;
+    color: #2c384a;
+    text-align: center;
+}
+
+.title__container h1 {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.title__container h4 {
+    margin-top: 40px;
+    font-size: 22px;
+    color: #79818d;
+}
+
+.title__container input {
+    height: 40px;
+    text-align: center;
+    border: 2px solid #6d7682;
+    background: none;
+    border-radius: 5px;
+    color: #6d7682;
+    font-size: 13px;
+    padding: 0px 16px;
+    margin: 58px 28px 0px 14px;
+}
+
+.upper_container {
+    width: 100%;
+    height: 715px;
+    text-align: center;
+}
+
+.upper_container h2 {
+    color: #384354;
+    font-size: 33px;
+    font-weight: bold;
+    padding-top: 100px;
+}
+
+.pp {
+    border-bottom: 5px solid #d17700;
+    max-width: 70px;
+    margin-left: 48%;
+    margin-top: 30px;
+}
+
+.upper_1 {
+    display: block;
+    margin: 60px 860px 0px 860px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    background: url(../img/boy1.jpg);
+}
+
+.upper_text p {
+    font-size: 12px;
+    margin: 45px 600px 40px 600px;
+    text-align: left;
+    padding-top: 0%;
+}
+
+.upper_text input {
+    margin-bottom: 20px;
+    height: 30px;
+    width: 140px;
+    text-align: center;
+    border: 2px solid #6f707e;
+    border-radius: 5px;
+    font-size: 12px;
+    color: #6f707e;
+    background: none;
+    background: url(../img/icon.jpg) no-repeat;
+    background-position: 5px 5px;
+}
+
+.skills {
+    display: block;
+    font-size: 12px;
+    height: 525px;
+    background: url(../img/noyt.png) 500px 270px no-repeat, url(../img/strelki.png) 785px 270px no-repeat, url(../img/raketa.png) 1080px 270px no-repeat, url(../img/gramm.png) 1380px 270px no-repeat, url(../img/fon_skills.jpg);
+}
+
+.skills h3 {
+    font-size: 18px;
+    color: #cf7600;
+    font-weight: 700;
+    padding-left: 50px;
+}
+
+.skills h2 {
+    color: #384354;
+    font-size: 33px;
+    font-weight: bold;
+    padding-top: 100px;
+    text-align: center;
+}
+
+.element_1 {
+    margin: 160px 20px 0px 420px;
+}
+
+.skills p {
+    font-size: 16px;
+    color: #384354;
+    margin-top: 15px;
+    line-height: 18px;
+    max-width: 210px;
+    text-align: center;
+}
+
+.element_2 {
+    margin: -85px 20px 0px 710px;
+}
+
+.element_3 {
+    margin: -88px 20px 0px 1000px;
+}
+
+.element_3 h3 {
+    padding-left: 20px;
+}
+
+.element_4 {
+    margin: -105px 20px 0px 1300px;
+}
+
+.cases h2 {
+    color: #384354;
+    font-size: 33px;
+    font-weight: bold;
+    padding-top: 100px;
+    text-align: center;
+}
+
+.cases {
+    height: 1251px;
+    background: url(../img/cases.jpg) no-repeat;
+    background-position: 0px 257px;
+}
+
+.cases p {
+    font-size: 16px;
+    text-align: center;
+    margin-top: 40px;
+    color: #384354;
+}
+
+.client {
+    margin: 650px 20px 40px 388px;
+}
+
+.client p {
+    text-align: left;
+    margin-top: 10px;
+    color: #384354;
+}
+
+.client h3 {
+    font-size: 25px;
+    color: #384354;
+    margin: 10px 0px;
+}
+
+.client input {
+    border: 2px solid #63b5ae;
+    margin-top: 20px;
+    border-radius: 7%;
+    height: 45px;
+    width: 200px;
+    font-size: 20px;
+    
+}
+
+.name_project {
+    max-width: 850px;
+    text-align: left;
+    font-size: 20px;
+    margin: -175px 0px 0px 300px;
+    line-height: 20px;
+}
+
+.name_project p {
+    text-align: left;
+    margin-top: 10px;
+    color: #384354;
+}
+
+.name_project h4 {
+    font-size: 25px;
+    color: #384354;
+}
+
+.price h2 {
+    margin-top: 30px;
+    font-size: 33px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.price h3 {
+    font-size: 25px;
+    margin: 48px 0px 22px 500px;
+    font-weight: 700;
+}
+
+.price select {
+    margin-left: 500px;
+    max-width: 900px;
+    border: 1px solid #eeeeee;
+    background: #eeeeee;
+    height: 57px;
+    width: 890px;
+}
+
+.border {
+    border-bottom: 2px solid #d1d1d1;
+    max-width: 880px;
+    margin-top: 40px;
+    margin-left: 505px;
+}
+
+.price p {
+    margin-top: 20px;
+    margin-left: 505px;
+    font-size: 20px;
+}
+
+.statistics {
+    margin-top: 150px;
+    height: 500px;
+    background: url(../img/smile.png) 500px 270px no-repeat, url(../img/skobki.png) 785px 270px no-repeat, url(../img/gal.png) 1080px 270px no-repeat, url(../img/cup.png) 1380px 270px no-repeat, url(../img/statfon.jpg);
+}
+
+.statistics h2 {
+    color: #384354;
+    font-size: 33px;
+    font-weight: bold;
+    padding-top: 100px;
+    text-align: center;
+}
+
+.statistics h3 {
+    font-size: 37.5px;
+    font-weight: 700;
+    color: #323e4f;
+}
+
+.statistics p {
+    font-size: 16px;
+    margin-top: 10px;
+    margin-right: 100px;
+    color: #323e4f;
+}
+
+.stat1 {
+    margin: 170px 20px 0px 490px;
+}
+
+.stat2 {
+    margin: -64px 0px 0px 770px;
+}
+
+.stat3 {
+    margin: -64px 0px 0px 1070px;
+}
+
+.stat4 {
+    margin: -64px 0px 0px 1390px;
+}
+
+.reviews h2 {
+    color: #384354;
+    font-size: 33px;
+    font-weight: bold;
+    padding-top: 100px;
+    text-align: center;
+}
+
+.foto {
+    display: block;
+    margin: 60px 0px 0px 905px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    background: url(../img/otz.jpg) no-repeat;
+}
+
+.reviews p {
+    font-size: 16px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.rev_man {
+    min-width: 250px;
+    margin-top: 37px;
+    text-align: center;
+}
+
+.ppp {
+    border-bottom: 12px dotted #d17700;
+    max-width: 60px;
+    margin-left: 48%;
+    margin-top: 30px;
+}
+
+.my_contacts h2 {
+    color: #fff;
+    font-size: 33px;
+    font-weight: bold;
+    padding-top: 100px;
+    text-align: center;
+}
+
+.my_contacts {
+    margin-top: 90px;
+    height: 800px;
+    background: url(../img/geo.png) 730px 270px no-repeat, url(../img/convert.png) 938px 270px no-repeat, url(../img/telefon.png) 1150px 270px no-repeat, url(../img/fon_cont.jpg);
+}
+
+.my_contacts h2 {
+    font-size: 33px;
+    color: #fff
+}
+
+.my_contacts p {
+    margin-top: 35px;
+    font-size: 16px;
+    color: #fff;
+    text-align: center;
+}
+
+.block_contacs {
+    margin-top: 100px;
+}
+
+.block_contacs a {
+    color: #fff;
+}
+
+.contact1 {
+    margin-left: 665px;
+}
+
+.contact2 {
+    margin-left: 875px;
+    margin-top: -28px;
+}
+
+.contact3 {
+    margin-left: 1110px;
+    margin-top: -14px;
+}
+
+.massages h3 {
+    margin-top: 60px;
+    font-size: 20px;
+    color: #fff;
+    text-align: center
+}
+
+.massag_name {
+    margin-left: 570px
+}
+
+.massag_name input {
+    display: inline-block;
+    margin-top: 40px;
+    border: 1px solid #fff;
+    height: 35px;
+    width: 350px;
+    max-width: 730px;
+    margin-left: 30px;
+}
+
+.massag_massag input {
+    border: 1px solid #fff;
+    width: 734px;
+    height: 100px;
+    margin-left: 600px;
+    margin-top: 20px;
+}
+
+.button {
+    text-align: center;
+    font-size: 20px;
+    color: #fff;
+}
+
+.button input {
+    margin-top: 30px;
+    border: 2px solid #fff;
+    height: 45px;
+    width: 145px;
+    border-radius: 5%;
+    background: transparent;
+    color: #fff;
+}
+
+.last_line {
+    background: url(../img/last_sloi.png) no-repeat;
+    text-align: center;
+    color: #fff;
+}
