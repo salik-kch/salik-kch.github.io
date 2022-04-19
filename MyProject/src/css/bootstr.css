@@ -1,42 +1,107 @@
 nav {
-    height: 50px;
+    height: 60px;
     background: #2a3e51;
     font-size: 14px;
-    
-    
 }
 
-
 nav a {
+    font-size: 14px;
     color: #eee;
+    text-decoration: none;
+    transition: all 0.1s;
+    transform: scale(1);
+}
+
+.menu {
+    float: left;
+}
+
+.menu li {
+    float: left;
+    line-height: 60px;
+    color: #fff;
+    margin-right: 40px;
+    text-transform: uppercase;
+    -webkit-animation: topshift 0.4s ease forwards;
+    -o-animation: topshift 0.4s ease forwards;
+    animation: topshift 0.4s ease forwards;
+    opacity: 0;
+}
+
+.logo {
+    color: #fff;
+    font-size: 20px;
+    line-height: 60px;
+    float: left;
+    -webkit-animation: comming 2s ease;
+    -o-animation: comming 2s ease;
+    animation: comming 2s ease;
+}
+
+.menu li a {
     text-decoration: none;
 }
 
 h2 {
-    font-size: 30px
+    font-size: 30px;
+    color: #1a2e43;
+    font-weight: bold;
 }
-.logo {
-    color: #eee;
-    font-size: 20px;
-    
-       
-}
+
 .main {
-    width:100%;
+    width: 100%;
     height: 1000px;
     background: url(../img/ten.png) bottom repeat-x, url(../img/boy.png) 85% 100%/auto 80% no-repeat, url(../img/bg.jpg) center/cover no-repeat;
+}
+
+.main h4 {
+    margin-top: 10px;
+    font-size: 15px;
+    color: #919aa4;
+}
+
+.main input {
+    margin-top: 20px;
+    height: 40px;
+    text-align: center;
+    font-weight: bold;
+    border: 2px solid #6d7682;
+    background: none;
+    border-radius: 5px;
+    color: #6d7682;
+    font-size: 13px;
+    padding: 0px 16px;
+    transition: all 0.2s;
+}
+
+h1 {
+    color: #223549;
+    font-size: 70px;
+    font-weight: 600;
 }
 
 .upper_container {
     height: 700px;
 }
+
+.upper_container input {
+    height: 30px;
+    width: 140px;
+    text-align: center;
+    border: 2px solid #6f707e;
+    border-radius: 5px;
+    font-size: 12px;
+    color: #6f707e;
+    background: none;
+    background: url(../img/icon.jpg) no-repeat;
+    background-position: 5px 5px;
+    transition: all 0.2s;
+}
+
 .pp {
     max-width: 80px;
     border-bottom: 5px solid #d17700;
-    
-    
-    
-    }
+}
 
 .upper_1 {
     border: 1px solid #fff;
@@ -45,7 +110,353 @@ h2 {
     height: 200px;
     overflow: hidden;
     background: url(../img/boy1.jpg);
+    transition: 0.2s;
+}
+
+.skills {
+    height: 520px;
+    background: url(../img/fon_skills.jpg);
+    background-position: center;
+}
+
+.skills h3 {
+    color: #e87700;
+    font-size: 25px;
+}
+
+.skills p {
+    color: #38475a;
+    font-weight: 500;
+    transition: all 0.2s;
+}
+
+.cases {
+    color: #2f4154;
+    height: 1100px;
+    margin-bottom: 100px;
+}
+
+.cases a {
+    color: #2f4154;
+    text-decoration: none;
+}
+
+.cases carousel slide {
+    max-height: 600px;
+}
+
+.cases input {
+    margin-top: 20px;
+    border: 2px solid #63b5ae;
+    border-radius: 7%;
+    height: 45px;
+    width: 200px;
+    font-size: 20px;
+    background: #00b6af;
+}
+
+.price {
+    height: 850px;
+    width: 800px;
+    border: 4px solid #d1d1d1;
+    margin: auto;
+    box-shadow: 10px 5px 5px;
+}
+
+.price border {
+    border-bottom: 2px solid #d1d1d1;
+}
+
+.price input {
+    border: 2px solid #63b5ae;
+    border-radius: 7%;
+    height: 45px;
+    width: 200px;
+    font-size: 20px;
+    background: #00b6af;
+}
+
+.statistics {
+    margin-top: 100px;
+    height: 500px;
+    background: url(../img/statfon.jpg) fixed;
+    background-position: center;
+}
+
+.statistics h3 {
+    font-size: 28px;
+    color: #1a2e43;
+}
+
+.statistics p {
+    color: #1a2e43;
+}
+
+.reviews {
+    color: #1a2e43;
+    height: 590px;
+}
+
+.ppp {
+    border-bottom: 12px dotted #d17700;
+    max-width: 60px;
+}
+
+.my_contacts {
+    margin-top: 20px;
+    background: url(../img/fon_cont.jpg);
+    background-position: center;
+    align-items: center;
+    height: 800px;
+}
+
+.my_contacts h2 {
+    color: #fff;
+}
+
+.my_contacts h3 {
+    color: #fff;
+    font-size: 20px;
+}
+
+.my_contacts p {
+    color: #fff;
+}
+
+.my_contacts a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.massage input {
+    height: 90px;
+    margin-right: 20px
+}
+
+.butt input {
+    border: 2px solid #fff;
+    height: 45px;
+    width: 145px;
+    border-radius: 5%;
+    background: transparent;
+    color: #fff;
+}
+
+.menu li a {
+    transition: all 0.1s;
+    color: white;
+    transform: scale(1);
+    display: inline-block;
+}
+
+.menu li a:visited {
+    color: white;
+}
+
+.menu li a:hover {
+    color: #ea7700;
+}
+
+.menu li a:active {
+    transform: scale(1.1);
+}
+
+.main input:hover {
+    color: #fff;
+    background: #223549;
+}
+
+.main input:active {
+    transform: scale(1.1);
+}
+
+.upper_container input:hover {
+    color: #fff;
+    background: #223549;
+}
+
+.upper_container input:active {
+    transform: scale(1.1);
+}
+
+.skills p:hover {
+    color: #fff;
+    background: #ea7700;
+    transform: scale(1.2);
+}
+
+@keyframes comming {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes topshift {
+    from {
+        opacity: 0;
+        margin-top: -80px;
+    }
+    to {
+        opacity: 1;
+        margin-top: 0px;
+    }
+}
+
+.menu li:nth-child(2) {
+    animation-delay: 0.4s;
+}
+
+.menu li:nth-child(3) {
+    animation-delay: 0.8s;
+}
+
+.menu li:nth-child(4) {
+    animation-delay: 1.2s;
+}
+
+.menu li:nth-child(5) {
+    animation-delay: 1.6s;
+}
+
+.menu li:nth-child(6) {
+    animation-delay: 2.0s;
+}
+
+.upper_1:hover {
+    transform: scale(1.1);
+}
+
+.white-btn:visited {
+    color: white;
+}
+
+@media (max-width:991px) {
+    .main h1,
+    .main h4,
+    .main input {
+        color: white;
+        position: relative;
+        z-index: 3;
+    }
+    .main {
+        position: relative;
+    }
+    .main::after {
+        content: : "";
+        bottom: 0;
+        top: 0;
+        left: 0;
+        right: 0;
+        position: absolute;
+        background: rgba(0, 0, 0, 0.4)
+    }
+}
+
+@media (max-width:767px) {
+    .upper_container p {
+        font-size: 14px;
+    }
+    .price {
+        max-width: 500px;
+        height: 800px;
+        margin-top: 50px;
+    }
+    .reviews {
+        margin-bottom: 50px;
+        
+    }
+    .my_contacts a {
+        font-size: px;
+    }
+}
+
+@media (max-width:1199px) {
+    .skills p {
+        font-size: 16px;
+    }
+    .skills h3 {
+        font-size: 20px;
+    }
+    .cases input {
+        max-width: 150px;
+        max-height: 40px;
+    }
+    .cases {
+        height: 1050px;
+    }
     
 }
+
+@media (max-width:991px) {
+    .skills p {
+        font-size: 14px;
+    }
+    .skills h3 {
+        font-size: 16px;
+    }
+    .cases h3 {
+        font-size: 22px;
+    }
+    .cases a {
+        font-size: 12px;
+    }
+    .cases {
+        height: 900px;
+    }
+    .price {
+        width: 750px;
+    }
+}
+
+
+@media (max-width:1399px) {
+     .cases {
+        margin-bottom: 0px;
+    }
+    .massage {
+       margin-left: 20px; 
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
